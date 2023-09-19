@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "npx prettier . --check"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.23.5",
@@ -25,5 +26,8 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
     "uploadthing": "^5.6.1"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
   }
 }
