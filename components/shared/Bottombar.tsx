@@ -1,7 +1,11 @@
 import React from 'react';
 
 function Bottombar() {
-  return <h1>Bottombar</h1>;
+  return (
+    <div>
+      <h1>Bottombar</h1>
+    </div>
+  );
 }
 
 export default Bottombar;

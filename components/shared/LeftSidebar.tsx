@@ -1,7 +1,11 @@
 import React from 'react';
 
 function LeftSidebar() {
-  return <h1>LeftSidebar</h1>;
+  return (
+    <div>
+      <h1>LeftSidebar</h1>
+    </div>
+  );
 }
 
 export default LeftSidebar;
