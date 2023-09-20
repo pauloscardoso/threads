@@ -1,7 +1,9 @@
 import { ClerkProvider } from '@clerk/nextjs';
-import { Inter } from 'next/font/google';
 import '../globals.css';
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Threads',
@@ -11,8 +13,6 @@ export const metadata: Metadata = {
 type RootLayoutType = {
   children: React.ReactNode;
 };
-
-const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({ children }: RootLayoutType) {
   return (
