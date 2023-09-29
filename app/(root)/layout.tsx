@@ -25,7 +25,7 @@ export default function RootLayout({ children }: RootLayoutType) {
       <html lang='en'>
         <body className={inter.className}>
           <Topbar />
-          <main>
+          <main className='flex flex-row'>
             <LeftSidebar />
             <section className='main-container'>
               <div className='w-full max-w4x1'>{children}</div>
